@@ -2385,7 +2385,7 @@ a        """
             resnr = resid + 1
             line = "%6d %4s %5d %5s %5s %4d %12.6f %12.5f ; qtot %1.3f\n" % \
                 (id_, aType, resnr, resname, aName, cgnr, charge, mass, qtot)  # JDC
-            oline = "%6d %4s %5d %5s %5s %4d %12.6f %12.5f ; qtot % 3.3f  %-4s\n" % \
+            oline = "%6d %4s %5d %5s %5s %4d %12.5f %12.5f ; qtot % 3.3f  %-4s\n" % \
                 (id_, oaCode, resnr, resname, aName, cgnr, charge, omass, qtot, oplsAtName)  # JDC
             count += 1
             temp.append(line)
